@@ -1,0 +1,17 @@
+.button-comp {
+
+    padding: 8px 18px 8px 18px;
+    background: #1890FF;
+    border-radius:4px;
+    border: 0;
+    font-size: 16px;
+    color:#FFF;
+    cursor: pointer;
+
+}
+
+.button-comp:hover {
+
+    background:#135da3;
+
+}

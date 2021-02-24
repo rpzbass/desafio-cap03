@@ -1,0 +1,41 @@
+.home-container{
+
+    margin-top: 0px;
+
+}
+
+.home-content {
+    
+    margin-top: 117px;
+    padding-left: 120px;
+    margin-bottom:265px ;
+   
+
+}
+
+.home-text-title {
+
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+
+.home-intro {
+
+    padding-top: 24px;
+    font-size: 20px;
+    line-height: 36px;
+    color: #5A6774;
+
+
+}
+
+.home-mail {
+
+    color: #1890FF;
+}
+
+.home-button{
+
+    padding-top:48px
+}
