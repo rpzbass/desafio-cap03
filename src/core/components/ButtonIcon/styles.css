@@ -4,9 +4,13 @@
     background: #1890FF;
     border-radius:4px;
     border: 0;
+    font-weight:400;
     font-size: 16px;
     color:#FFF;
     cursor: pointer;
+    width: 101px;
+    height: 40px;
+
 
 }
 

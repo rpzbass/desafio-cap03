@@ -1,62 +1,215 @@
-
 .search-container {
-
-    margin-top:0;
-
+  margin-top: 0;
 }
 
-.search-content{
-    
-    height:290px;
-    margin-top:54px;
-    margin-left:90px;
-    margin-right:99px;
-    margin-bottom: 512px;
-    background:#E6F7FF;
-    border-radius: 16px
-   
+.search-content {
+  height: 290px;
+  margin-top: 54px;
+  margin-left: 90px;
+  margin-right: 99px;
+  margin-bottom: 512px;
+  background: #e6f7ff;
+  border-radius: 16px;
 }
 
 .search-actions {
-
-    padding-left:94px;
-    padding-right:481px;
-    
+  padding-left: 94px;
+  padding-right: 481px;
 }
 
-.search-text{
-
-    padding-top: 66px;
-    font-size:38px;
-    font-weight: bold;
-    line-height: 46px;
-    color:#262626;
-    padding-bottom: 12px;
-
+.search-text {
+  padding-top: 66px;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 46px;
+  color: #262626;
+  padding-bottom: 12px;
 }
 
-.search-input{
+.search-input {
+  width: 676px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  padding: 4px 27px 4px 17px;
+  font-size: 20px;
+  margin-bottom: 24px;
+  color: #bfbfbf;
+}
 
-    width:676px;
-    height:35px;
-    border-radius:4px;
-    border: 1px solid #D9D9D9;
-    padding: 4px 27px 4px 17px;
-    font-size:20px;
-    margin-bottom: 24px;
-    color:#BFBFBF;
+@media only screen and (max-width: 1076px) {
+  .search-input {
+    width: 400px;
+  }
 }
 
 .button-comp-search button {
+  height: 40px;
+  width: 101px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+}
+.button-comp-search {
+  padding-bottom: 42px;
+}
 
-    height: 40px;
-    width: 101px;
-    font-size: 16px;
-    text-align: center;
-    font-weight: normal;   
+.form-response {
+  margin-top: 54px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding-bottom: 96px;
+  padding-right: 23px;
+  padding-top: 23px;
+  padding-left: 30px;
+}
+.image-url {
+
+  margin-top:5px;
+  width: 284px;
+  height: 288px;
+ 
+  
 
 }
-.button-comp-search{
 
-    padding-bottom: 42px;
+
+.form-response {
+
+  display: flex;
+
+}
+
+.form-table1-dflex {
+
+  margin-left: 36px;
+  border-collapse: separate;
+  border-spacing: 8px;
+  color:#737373;
+
+}
+
+.form-table1-dflex td {
+
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  background: #fff;
+  padding-left: 14px;
+  padding-right: 14px;
+  
+}
+
+.table-info-search {
+  
+  height: 247px;
+  border-radius: 6px;
+  margin-top: 12px;
+  margin-left: 44px;
+  border-collapse: separate;
+  border-spacing: 5=px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  font-size: 16px;
+  position: absolute;
+  width: 1000px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 17px;
+  padding-left: 15px;
+  font-weight: bold;
+  color:#737373;
+    
+}
+.table-info-search .title{
+   
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color:#1890FF;
+
+}
+.table-info-search span {
+
+  font-weight: normal;
+  padding-left:3px;
+ 
+
+}
+
+
+@media only screen and (max-width: 1570px) {
+  .table-info-search {
+    width: 970px;
+  }
+}
+@media only screen and (max-width: 1530px) {
+  .table-info-search {
+    width: 900px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .table-info-search {
+    width: 850px;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .table-info-search {
+    width: 800px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .table-info-search {
+    width: 750px;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .table-info-search {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .table-info-search {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .table-info-search {
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 1076px) {
+  .table-info-search {
+    width: 400px;
+  }
+}
+
+.table-info-search td {
+  border: 1px solid #d9d9d9;
+  height: 35px;
+  margin-top:19px;
+  position: relative;
+  width: 20%;
+  border-radius: 4px;
+  padding-left:10px;
+}
+
+.button-perfil {
+
+  padding-top:17px;
+  
+}
+
+
+.image-loader{
+
+  
+
+}
+
+.info-loader {
+
+  padding-top:24px;
+
 }
